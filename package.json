@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "author": "Vlad Seryakov",
+  "name": "bkjs-debug",
+  "description": "Debugging and profiling support for node.js and backendjs",
+  "main": "build/Release/binding",
+  "homepage": "https://github.com/vseryakov/backendjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vseryakov/bkjs-debug.git"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "license": "BSD-3-Clause",
+  "gypfile": true,
+  "scripts": {
+    "install": "node-gyp configure build"
+  }
+}

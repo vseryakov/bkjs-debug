@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": "Vlad Seryakov",
   "name": "bkjs-debug",
   "description": "Debugging and profiling support for node.js and backendjs",
@@ -8,6 +8,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/vseryakov/bkjs-debug.git"
+  },
+  "dependencies": {
+    "nan": ">= 2.0.9"
   },
   "engines": {
     "node": ">= 0.10"

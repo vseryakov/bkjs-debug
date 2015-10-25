@@ -18,6 +18,8 @@
 #include <cxxabi.h>
 #include <dlfcn.h>
 #include <execinfo.h>
+#include <unistd.h>
+#include <stdarg.h>
 
 #define OFFSET(base, addr) (static_cast<long>(static_cast<const char*>(addr) - static_cast<const char*>(base)))
 
